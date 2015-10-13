@@ -19,6 +19,19 @@ space). They are handy for feature vectors in linear classifiers.
   python setup.py install
 ```
 
+If you get the following error, 
+
+> Traceback (most recent call last):
+>  File "setup.py", line 3, in <module>
+>    from Cython.Distutils import build_ext
+> ImportError: No module named Cython.Distutils
+
+run the following command to install cython,
+
+```
+sudo pip install cython
+```
+
 The second command installs svector.so in your default directory for
 Python modules. Or instead, you can look for build/lib.*/svector.so
 and install it where you like.
