@@ -7,14 +7,17 @@ for dimensions (i.e., foo=1 bar=2 rather than [1,2]) and are
 represented sparsely (unset values default to 0 but don't take up
 space). They are handy for feature vectors in linear classifiers.
 
-Requires:
+## Prerequisites
   - Python (tested with 2.5.2)
   - Cython (tested with 0.11.2)
   - a C++ compiler
 
-To build:
+## Install
+
+```
   python setup.py build
   python setup.py install
+```
 
 The second command installs svector.so in your default directory for
 Python modules. Or instead, you can look for build/lib.*/svector.so
