@@ -1,4 +1,4 @@
-svector - sparse vector module for Python
+# svector - sparse vector module for Python
 2010 March 17
 David Chiang
 
